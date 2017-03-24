@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BrainStorm</string>
+    <string name="challenge">Challenge</string>
+    <string name="questions">Questions</string>
+    <string name="answers">Answers</string>
+
+</resources>

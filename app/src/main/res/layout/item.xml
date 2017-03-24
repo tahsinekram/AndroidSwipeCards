@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="48dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="64dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="18dp"
+            android:background="#FFFF8D"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/bookText"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:textColor="#787878"
+                    android:textSize="20dp"
+                    tools:text="i am here"/>
+
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textAlignment="center"
+                android:maxLines="10"
+                android:gravity="top|left"
+                android:scrollbars="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="80dp"
+                android:hint="Your Answer"
+                tools:text="here is the answer"/>
+
+            <TextView
+                android:id="@+id/header"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                tools:text="CHALLENGE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="90dp"
+                android:layout_above="@+id/edit"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+</FrameLayout>
