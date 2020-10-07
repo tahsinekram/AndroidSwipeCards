@@ -9,3 +9,6 @@ The following is a user flow of the app:
 4.Once done, the list containing all challenges are shown and on clicking on a certain challenge it directs to the answers page.
 5. Answers page has the list of questions and the answers are revealed on tapping on the desired question.
 6.Dialog box automatically allows user to update the previously answered questions
+
+The following is a demo to the finished product:
+https://www.youtube.com/watch?v=9n5uRyM74vs&ab_channel=tahsinekram
